@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57d8d806-89f0-43fb-bb61-f64b80c8f0b8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HomeTaskWeek4.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geekhub/hw4/set/SetOperations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geekhub/hw4/taskmanager/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geekhub/hw4/taskmanager/TaskManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="57d8d806-89f0-43fb-bb61-f64b80c8f0b8" name="Default" comment="" />
     <ignored path="HomeTaskWeek4.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -499,12 +484,12 @@
       <updated>1446213396060</updated>
       <workItem from="1446213399176" duration="2337000" />
       <workItem from="1446218191437" duration="1382000" />
-      <workItem from="1446220718860" duration="376000" />
+      <workItem from="1446220718860" duration="611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4095000" />
+    <option name="totallyTimeSpent" value="4330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="34" width="1936" height="1056" extended-state="6" />
