@@ -1,2 +1,3 @@
- - Реализовать интерфейс com.geekhub.hw4.set.SetOperations
- - Реализовать интерфейс com.geekhub.hw4.taskmanager.TaskManager
+1.  Implement interface  com.geekhub.hw4.set.SetOperations
+ 
+2.  Implement interface  com.geekhub.hw4.taskmanager.TaskManager
