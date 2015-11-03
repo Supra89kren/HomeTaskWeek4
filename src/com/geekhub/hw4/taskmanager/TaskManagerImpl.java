@@ -6,7 +6,14 @@ import java.util.*;
  * Created by JeT on 02.11.2015.
  */
 public class TaskManagerImpl implements TaskManager {
+
     Map <Date, List<Task>> taskMap = new TreeMap<Date,List<Task>>();
+    public Map<Date, List<Task>> getTaskMap() {
+        return taskMap;
+    }
+
+
+
 
     @Override
     public void addTask(Date date, Task task) {
