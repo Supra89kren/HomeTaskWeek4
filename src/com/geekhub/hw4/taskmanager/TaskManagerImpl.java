@@ -1,6 +1,7 @@
 package com.geekhub.hw4.taskmanager;
 
 import java.util.*;
+import java.util.concurrent.SynchronousQueue;
 
 /**
  * Created by JeT on 02.11.2015.
@@ -70,7 +71,20 @@ public class TaskManagerImpl implements TaskManager {
 
     @Override
     public List<Task> getTasksForToday() {
-        return null;
+        List<Task> listForToday = new ArrayList<Task>();
+        int currentDay= Calendar.getInstance().get(Calendar.DAY_OF_YEAR);
+
+        for (Map.Entry<Date,List<Task>> entry:taskMap.entrySet()){
+            Calendar taskDay = Calendar.getInstance();
+            taskDay.setTime(entry.getKey());
+            if (currentDay==taskDay.get(Calendar.DAY_OF_YEAR)){
+                for (Task task :entry.getValue()){
+                    listForToday.add(task);
+
+                }
+            }
+        }
+        return listForToday;
     }
 
     public Map<String,List<Task>> addTaskToCategoryMap(Map<String,List<Task>> map, Task task) {
