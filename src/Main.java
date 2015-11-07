@@ -1,10 +1,8 @@
+import com.geekhub.hw4.set.SetOperationsImpl;
 import com.geekhub.hw4.taskmanager.Task;
 import com.geekhub.hw4.taskmanager.TaskManagerImpl;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Main {
 
@@ -27,6 +25,21 @@ public class Main {
 
         printTasksMap(taskManager.getTaskMap());
 
+        System.out.println("SetOperations test_________________");
+        SetOperationsImpl resultOperations = new SetOperationsImpl();
+        Set<String> firstSet = new HashSet<String>();
+        firstSet.add("one");
+        firstSet.add("two");
+        firstSet.add("four");
+        firstSet.add("three");
+        Set<String> secondSet = new HashSet<String>();
+        secondSet.add("one");
+        secondSet.add("five");
+        secondSet.add("seven");
+        secondSet.add("two");
+        for (Object obj : resultOperations.symmetricSubtract(firstSet,secondSet)) {
+            System.out.println(obj);
+        }
 
     }
 
